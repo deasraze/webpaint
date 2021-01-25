@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/231a65ac46.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>WebPaint</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="Логотип">
+            </div>
+            <nav class="header__nav" id="nav">
+                <a href="#home" class="nav__link">home</a>
+                <a href="#portfolio" class="nav__link">portfolio</a>
+                <a href="" class="nav__link">about</a>
+                <a href="" class="nav__link">blog</a>
+                <a href="#contacts" class="nav__link">contact</a>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<div class="intro" id="home">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">
+                We are <b>Webpaint</b>
+            </h1>
+            <h2 class="intro__subtitle">
+                digital & brandingagency based in Jupiter and we would love to turn ideas into beautiful things.
+            </h2>
+            <a href="#portfolio" class="btn">See Portfolio</a>
+        </div>
+    </div>
+</div>
+
+<div class="services">
+    <div class="container">
+        <div class="services__inner">
+            <div class="services__item">
+                <img src="img/services/android-service.png" alt="Android" class="services__icon">
+                <div class="services__title">Consectetur</div>
+                <div class="services__text">Vestibulum id ligula porta  euismod semper. Aenean lacinia bibendum nulla sed consectetur dui.</div>
+            </div>
+            <div class="services__item">
+                <img src="img/services/comp-service.png" alt="Android" class="services__icon">
+                <div class="services__title">Tristiquet</div>
+                <div class="services__text">Fusce dapibus, cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo risus.</div>
+            </div>
+            <div class="services__item">
+                <img src="img/services/camera-service.png" alt="Android" class="services__icon">
+                <div class="services__title">Fermentum</div>
+                <div class="services__text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum sagittis lacus mollis.</div>
+            </div>
+            <div class="services__item">
+                <img src="img/services/watch-service.png" alt="Android" class="services__icon">
+                <div class="services__title">Elit Ultricies</div>
+                <div class="services__text">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="works" id="portfolio">
+        <h3 class="works__title">Our Featured Works</h3>
+        <div class="works__text">
+            <p>Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</p>
+        </div>
+        <nav class="works__nav">
+            <a class="btn btn--works btn--active" href="" data-works="all">all</a>
+            <a class="btn btn--works" href="" data-works="graphic">graphic</a>
+            <a class="btn btn--works" href="" data-works="illustration">illustration</a>
+            <a class="btn btn--works" href="" data-works="motion">motion</a>
+        </nav>
+        <div class="works__portfolio">
+            <div class="portfolio__item">
+                <img src="img/works/work-1.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-2.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-3.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-4.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-5.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-6.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-7.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-8.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-9.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-10.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-11.jpg" class="portfolio__img" alt="Work">
+            </div>
+            <div class="portfolio__item">
+                <img src="img/works/work-12.jpg" class="portfolio__img" alt="Work">
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer" id="contacts">
+    <div class="container">
+        <div class="footer__inner">
+            <h4 class="footer__title">Get in Touch</h4>
+            <p class="footer__subtitle">Vestibulum id ligula porta felis euismod semper,malesuada euismod.</p>
+            <div class="footer__contacts">
+                <span class="footer__address">Moonshine Street No: 14/05 Light City, Jupiter</span>
+                <a class="footer__tel" href="tel:02475416587">0247 541 65 87</a>
+            </div>
+            <div class="footer__social">
+                <a href="" target="_blank" class="social__item item--rss">
+                    <i class="fas fa-rss"></i>
+                </a>
+                <a href="" target="_blank" class="social__item item--fb">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" target="_blank" class="social__item item--tw">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" target="_blank" class="social__item item--dr">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+                <a href="" target="_blank" class="social__item item--pn">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        @ 2013 Webpaint. All Rights Reserved.
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
